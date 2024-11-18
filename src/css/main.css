@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-image: url('../images/wall.png');
+}
+
+.game header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 100vmax;
+    color: #ffffff;
+    background-color: #000000;
+    border-bottom: 0.5vh solid #ff0000;
+}
+
+.time-status,
+.score-status,
+.lives-status {
+    display: flex;
+    align-items: center;
+    font-size: 2vmax;
+}
+
+#player-image {
+    width: 5vmax;
+}
+.status-number,
+#game-lives {
+    color: red;
+}
+
+.game-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.square {
+    height: 25vh;
+    width: 25vh;
+    border: 1px solid #cadad7;
+    background-color: #6ad3fd;
+}
+
+.enemy {
+    background-image: url('../images/ralph.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
